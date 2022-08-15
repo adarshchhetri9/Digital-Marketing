@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0.1px;
+    font-family: "Poppins"
+}
+
+.container{
+    margin: 50px;
+}
+
+.navbar-container{
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    font-size: 15px;
+    margin-left: -400px;
+    font-weight: 500;
+    color: #B8B8B8;
+}
+
+
+
+.list-item{
+    list-style: none;
+    padding: 20px ;
+}
+
+.list-item:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+/* .grow-list{
+    display: flex;
+} */
+
+.banner-container{
+    display: flex;
+}
+
+.heading-text{
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.nav-button.btn{
+    background-color:#5955B3;
+    padding: 30px 40px;
+    border-radius: 5px;
+    margin-top: 70px;
+    color: white;
+}
+
+.nav-button.btn:hover{
+    background-color: #928df8;
+    cursor: pointer;
+}
+
+.button-group > .nav-button{
+    background-color: #5955B3;
+    padding:15px 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.button-group > .nav-button:hover{
+    background-color: #928df8;
+    cursor: pointer;
+}
+
+h1{
+    color: #3C2F60;
+}
+
+h1 > span{
+    color: #5955B3;
+}
+
+.navbar-container > div > img{
+    height: 40px
+}
+
+.banner-container > div > img{
+    /* background-color: pink; */
+    position: relative;
+    left : 33px;
+    bottom : 50px
+}
